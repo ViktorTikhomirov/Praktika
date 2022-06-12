@@ -16,5 +16,22 @@ namespace Praktika
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(comboBox1.Text == "Админ")
+            {
+
+            }
+            else if(comboBox1.Text == "Клиент")
+            {
+
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
